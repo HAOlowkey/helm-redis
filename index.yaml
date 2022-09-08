@@ -3,12 +3,22 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 5.0.14
-    created: "2022-08-15T14:09:53.596264+08:00"
+    created: "2022-09-08T15:57:01.366991+08:00"
     description: deploy redis standalone Helm chart for Kubernetes
-    digest: 4d18cd9b882dfb5536f75e93bccea1ef78d58b401eac1ccea07bc3977f97b4e6
+    digest: a6358dc717f4212dda0f26570cf5bbea90de5409d135f30156495fcd4642a5a1
+    name: redis
+    type: application
+    urls:
+    - https://haolowkey.github.io/helm-redis/redis-2.1.1.tgz
+    version: 2.1.1
+  - apiVersion: v2
+    appVersion: 5.0.14
+    created: "2022-09-08T15:57:01.365072+08:00"
+    description: deploy redis standalone Helm chart for Kubernetes
+    digest: 6771b31b022287cf5c8e370b9879bff67d43d9769fbdd79098e70fb8d7f885e2
     name: redis
     type: application
     urls:
     - https://haolowkey.github.io/helm-redis/redis-2.0.1.tgz
     version: 2.0.1
-generated: "2022-08-15T14:09:53.594666+08:00"
+generated: "2022-09-08T15:57:01.362319+08:00"
